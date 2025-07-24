@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Set your Gemini API Key here
-genai.configure(api_key="AIzaSyC0nLVJvGIIEv2pNsfLR6pXzi-B-KLTn8g")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
